@@ -1,0 +1,37 @@
+{
+  "name": "reactsample1",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --progress --color --display-error-details --mode development",
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "@types/redux": "^3.6.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^4.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "react": "^16.8.6",
+    "react-hot-loader": "^4.11.0",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.0.2",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.1",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3",
+    "webpack-dev-server": "^3.7.1"
+  },
+  "dependencies": {
+    "react-dom": "^16.8.6",
+    "redux": "^4.0.1"
+  }
+}
